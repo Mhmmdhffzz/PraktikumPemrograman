@@ -53,9 +53,6 @@ public class Prak104_2110817310018_MuhammadHafiz {
             else
                 System.out.println("Seri"); //Menampilkan nama Andi
          } 
-         else {
-              //Jika kartu yang dimasukan kurang dari 2 dan lebih dari 10
-                System.out.println("Invalid input kartu must be lebih dari 2 dan kurang dari 10 :)");
-         }
+        
     }
 }
