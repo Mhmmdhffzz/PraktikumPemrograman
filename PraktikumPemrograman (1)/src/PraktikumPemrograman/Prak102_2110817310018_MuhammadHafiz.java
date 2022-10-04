@@ -18,7 +18,7 @@ public class Prak102_2110817310018_MuhammadHafiz {
         System.out.println("Masukkan bilangan : ");
         angka = keyboard.nextInt();
         
-        int i = 7;
+        int i = 6;
         while (i >= 0) {            
             if (angka % 2 == 0){
                 bilangan = (angka / 2) - 1;
@@ -26,7 +26,7 @@ public class Prak102_2110817310018_MuhammadHafiz {
                 bilangan = angka;
             }
             
-            if (i == 7){
+            if (i == 6){
                System.out.print(bilangan);
             } else {
                 System.out.print(", " + bilangan);
