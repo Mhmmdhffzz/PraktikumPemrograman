@@ -18,13 +18,5 @@ public double amount(Shape s)
 System.out.println ("Computing amount for " + s);
 return s.area()/this.coverage;
 }
-}//-----------------------------------
-// Returns the sphere as a String.
-//-----------------------------------
-
-public String toString()
-{
-return super.toString + " of radius " + radius;
-}
 }
 
